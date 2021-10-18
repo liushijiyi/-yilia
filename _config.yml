@@ -265,7 +265,7 @@ smart_menu:
   aboutme: '关于我'
 deploy:
   type: git
-  repo: git@github.com:lujiahao0708/lujiahao0708.github.io.git
+  repo: git@github.com:liushijiyi/-yilia.git
   branch: master
   
 # 友情链接
