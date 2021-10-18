@@ -3,8 +3,8 @@ name: Hexo Blog CI
 # master branch on push, auto run
 on: 
   push:
-    branches: pages
-    a
+    branches: 
+      - master
       
 jobs:
   build: 
