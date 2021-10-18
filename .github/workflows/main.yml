@@ -4,6 +4,7 @@ name: Hexo Blog CI
 on: 
   push:
     branches: pages
+    a
       
 jobs:
   build: 
