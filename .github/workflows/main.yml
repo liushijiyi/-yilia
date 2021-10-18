@@ -3,9 +3,8 @@ name: Hexo Blog CI
 # master branch on push, auto run
 on: 
   push:
-    branches: pages
-  pull_request:
-    branches: master
+    branches:
+      - master
       
 jobs:
   build: 
