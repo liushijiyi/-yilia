@@ -263,7 +263,11 @@ smart_menu:
   innerArchive: '所有文章'
   friends: '友链'
   aboutme: '关于我'
-
+deploy:
+  type: git
+  repo: git@github.com:lujiahao0708/lujiahao0708.github.io.git
+  branch: master
+  
 # 友情链接
 friends:
   技术笔记:  #网站名称
