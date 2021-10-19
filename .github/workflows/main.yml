@@ -4,7 +4,7 @@ name: Hexo Blog CI
 on: 
   push:
     branches: 
-      - pages-2
+      - master
       
 jobs:
   build: 
@@ -60,3 +60,15 @@ jobs:
         hexo clean
         hexo generate 
         hexo deploy
+        
+    - name: git push 
+      run: |
+        cd ./public
+        git init
+        git config user.name "liushijiyi"
+        git config user.email "844609438@qq.com"
+        git add
+        git commit -m "Update site"
+        git push --force --quiet "git@github.com:liushijiyi/-yilia.git" master:gh-pages
+
+        
